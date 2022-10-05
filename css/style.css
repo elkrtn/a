@@ -40,9 +40,8 @@ padding: 10px;
     float: left;
 }
 .box1 img{
-    border-radius: 50%;
     margin: 40px;
-    margin-top: -0px;
+    margin-top: 10px;
 }
 .box1 h3{
     text-align: center;
@@ -73,9 +72,8 @@ padding: 10px;
     float: left;
 }
 .box2 img{
-    border-radius: 50%;
     margin: 40px;
-    margin-top: -0px;
+    margin-top: 10px;
 }
 .box2 h3{
     text-align: center;
@@ -106,9 +104,8 @@ padding: 10px;
     float: left;
 }
 .box3 img{
-    border-radius: 50%;
     margin: 40px;
-    margin-top: -0px;
+    margin-top: 10px;
 }
 .box3 h3{
     text-align: center;
