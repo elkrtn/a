@@ -126,3 +126,11 @@ padding: 10px;
     margin-left: 155px;
     box-shadow: 10px 10px 10px 10px black;
 }
+.box4{
+    border:10px solid #f2f7fc;
+    height: 230px;
+    width: 145px;
+    padding: 5px;
+    box-sizing: border-box;
+    align-self: baseline;
+}
