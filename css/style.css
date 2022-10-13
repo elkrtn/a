@@ -1,3 +1,6 @@
+body {
+    font-family: Verdana, sans-serif;
+}
 h1 {
 text-align: center;
 }
@@ -9,16 +12,35 @@ font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-ul {
-border: 1px solid black;
-background: #a458bb;
-padding: 15px;
+.navbar{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.menu-icon{
+	width: 100px;
+	cursor: pointer;
+    border-radius: 50%;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #f2f7fc;
+	font-size: 14px;
 }
 ul li {
-background: SlateBlue;
-color: Black;
-margin: 5px;
-}
+    color: #f2f7fc;
+    margin: 5px;
+    }
 .div-1 {
 border: 1px solid black;
 background-color: #a458bb;
@@ -33,10 +55,10 @@ padding: 10px;
 /*BOX 1*/
 .box1{
     border:4px solid #f2f7fc;
-    height: 230px;
-    width: 145px;
+    height: 300px;
+    width: 230px;
     margin: 45px;
-    margin-left: 155px;
+    margin-left: 20%;
     float: left;
 }
 .box1 img{
@@ -56,17 +78,17 @@ padding: 10px;
 }
 .box1:hover{
     border: 4px solid #f2f7fc;
-    height: 230px;
-    width: 145px;
+    height: 300px;
+    width: 230px;
     margin: 45px;
-    margin-left: 155px;
+    margin-left: 20%;
     box-shadow: 10px 10px 10px 10px black;
 }
 /*BOX 2*/
 .box2{
     border:4px solid #f2f7fc;
-    height: 230px;
-    width: 145px;
+    height: 300px;
+    width: 230px;
     margin: 45px;
     margin-left: 155px;
     float: left;
@@ -88,8 +110,8 @@ padding: 10px;
 }
 .box2:hover{
     border: 4px solid #f2f7fc;
-    height: 230px;
-    width: 145px;
+    height: 300px;
+    width: 230px;
     margin: 45px;
     margin-left: 155px;
     box-shadow: 10px 10px 10px 10px black;
@@ -97,8 +119,8 @@ padding: 10px;
 /*BOX 3*/
 .box3{
     border:4px solid #f2f7fc;
-    height: 230px;
-    width: 145px;
+    height: 300px;
+    width: 230px;
     margin: 45px;
     margin-left: 155px;
     float: left;
@@ -120,17 +142,9 @@ padding: 10px;
 }
 .box3:hover{
     border: 4px solid #f2f7fc;
-    height: 230px;
-    width: 145px;
+    height: 300px;
+    width: 230px;
     margin: 45px;
     margin-left: 155px;
     box-shadow: 10px 10px 10px 10px black;
-}
-.box4{
-    border:10px solid #f2f7fc;
-    height: 230px;
-    width: 145px;
-    padding: 5px;
-    box-sizing: border-box;
-    align-self: baseline;
 }
