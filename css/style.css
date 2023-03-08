@@ -184,7 +184,27 @@ ul li {
   box-shadow: 10px 10px 10px 10px black;
 }
 
-.cat {
+.middle {
   margin: auto;
   width: 50%;
+}
+
+.text {
+  height: 300px;
+  padding-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimg {
+  margin-right: 10px;
+
+}
+
+@media only screen and (min-width: 380px) {
+  .testimg {
+    width: 100%;
+    object-fit: cover;
+  }
 }
